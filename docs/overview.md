@@ -10,6 +10,7 @@
 
 ### [calculator.cpp](../calculator.cpp)
 
+- Исполняемый код
 - Программа получает на вход два числа и оператор:
 
 ```
@@ -45,9 +46,9 @@ g++ calculator.cpp functions.cpp -o calculator
 ./calculator
 ```
 
-#### На Windows
+#### На Windows (в MSYS2)
 
 ```
 g++ calculator.cpp functions.cpp -o calculator.exe
-.\calculator.exe
+./calculator.exe
 ```
