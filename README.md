@@ -18,8 +18,8 @@ sudo pacman -S gcc git     # Arch
 - Клонировать репозиторий
 
 ``` bash
-git clone https://github.com/rakuen-isu/ISRPO-lab-2
-cd ISRPO-lab-2
+git clone https://github.com/rakuen-isu/laboratory-ISRPO-2
+cd laboratory-ISRPO-2
 ```
 
 - Собрать и запустить код.
