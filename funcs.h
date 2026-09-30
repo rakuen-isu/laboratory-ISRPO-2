@@ -1,7 +1,7 @@
 #ifndef FUNCS
 #define FUNCS
 
-// Список функций из файла functions.cpp
+// Список функций из файла function.cpp
 
 int sum(int a, int b);
 int sub(int a, int b);
