@@ -8,7 +8,7 @@ int main(){
     int a = 0;
     int b = 0;
     char opp;
-    std::cout << "Введите числа и арифметическую операцию в формате число оператор число" << '\n';
+    std::cout << "Input two numbers & operator in format: number operator number" << '\n';
     std::cin >> a >> opp >> b;
     switch (opp) {
         case '+':
@@ -27,7 +27,7 @@ int main(){
             std::cout << mod(a, b);
             break;
         default:
-            std::cout << "Ошибка: неверный оператор";
+            std::cout << "Error: unknown operator";
             break;
     }
     std::cout << '\n';
