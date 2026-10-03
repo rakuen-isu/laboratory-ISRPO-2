@@ -40,9 +40,10 @@ g++ calculator.cpp functions.cpp -o calculator
    pacman -S mingw-w64-ucrt-x86_64-gcc
    ```
 
-4. Далее скачать архив из репозитория и перейти в терминале `MSYS2 UCRT64` в папку проекта, где будут [`calculator.cpp`](calculator.cpp) и [`functions.cpp`](functions.cpp) и выполнить
+4. Далее скачать архив из репозитория и разархивировать его в папку с MSYS2 в директорию home/ и перейти в терминале `MSYS2 UCRT64` в папку проекта, где будут [`calculator.cpp`](calculator.cpp) и [`functions.cpp`](functions.cpp) и выполнить
 
     ``` bash
+    cd ..
     g++ calculator.cpp functions.cpp -o calculator.exe
     ./calculator.exe
     ```
