@@ -48,7 +48,20 @@ g++ calculator.cpp functions.cpp -o calculator
 
 #### На Windows (в MSYS2)
 
-```
-g++ calculator.cpp functions.cpp -o calculator.exe
-./calculator.exe
-```
+
+- Необходимо установить компилятор (в примере [MSYS2](https://www.msys2.org/))
+1. Скачать установщик https://www.msys2.org/
+2. Открыть `MSYS2 UCRT64`
+3. Выполнить
+
+   ``` bash
+   pacman -S mingw-w64-ucrt-x86_64-gcc
+   ```
+
+4. Далее скачать архив из репозитория и разархивировать его в папку с MSYS2 в директорию home/ и перейти в терминале `MSYS2 UCRT64` в папку проекта, где будут [`calculator.cpp`](calculator.cpp) и [`functions.cpp`](functions.cpp) и выполнить
+
+    ``` bash
+    cd ..
+    g++ calculator.cpp functions.cpp -o calculator.exe
+    ./calculator.exe
+    ```
